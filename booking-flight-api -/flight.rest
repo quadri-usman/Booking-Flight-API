@@ -8,9 +8,9 @@ POST http://localhost:3000/flight HTTP/1.1
 Content-Type: application/json
 
 {
-      "title": "flight to Canada",
+      "title": "flight to USA",
       "time": "2pm",
-      "price": 36000,
+      "price": 56000,
       "date": "26-06-2022"
 }
 ######
@@ -19,8 +19,8 @@ Content-Type: application/json
 
 {      
       "time": "5pm",
-      "price": 16000,
+      "price": 46000,
       "date": "26-06-2022"
 }
 #####
-DELETE http://localhost:3000/flight/flight to canada
+DELETE http://localhost:3000/flight/flight to Canada
